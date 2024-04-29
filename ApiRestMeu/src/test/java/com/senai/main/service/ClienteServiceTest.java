@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
- */
 package com.senai.main.service;
 
 import com.senai.main.entity.Cliente;
@@ -48,10 +44,6 @@ public class ClienteServiceTest {
         if(snumero.length() == 1){ snumero = "00" + snumero; }
         return snumero;
     }
-    
-    public String geraNomes(){
-        int idxnome = 
-    }
 
     /**
      * Test of incluirCliente method, of class ClienteService.
@@ -86,7 +78,7 @@ public class ClienteServiceTest {
     @Test
     public void testConsultarCliente() {
         System.out.println("consultarCliente");
-        Long idCliente = 2L;
+        Long idCliente = 1L;
         Optional<Cliente> expResult = null;
         Optional<Cliente> result = srv.consultarCliente(idCliente);
         System.out.println("Nome do cliente 152: " + result.get().getNome());
@@ -111,11 +103,11 @@ public class ClienteServiceTest {
     public void testAtualizarCliente() {
         System.out.println("atualizarCliente");
         Cliente cliente = new Cliente();
-        Long idCliente = Long.valueOf("2");
+        Long idCliente = Long.valueOf("102");
         cliente.setIDCliente(idCliente);
-        cliente.setCpf("999.201.615-74");
-        cliente.setEmail("rafael@gmail.com");
-        cliente.setNome("rafael do socorro");
+        cliente.setCpf("888.311.615-14");
+        cliente.setEmail("vitor@gmail.com");
+        cliente.setNome("vitor Matheus");
         Boolean expResult = true;
         Boolean result = srv.atualizarCliente(cliente);
         assertEquals(expResult, result);
