@@ -5,6 +5,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
@@ -17,12 +18,22 @@ public class VendasProduto {
     private Long IDVendasProduto;
     
     @ManyToOne
-    //@JsonBackReference
+    @JoinColumn(nullable = false)
+    @JsonBackReference
     private Vendas vendas;
         
     @ManyToOne
+    @JoinColumn(nullable = false)
+    @JsonBackReference
     private Produto produto;
-
+    
+    @Column(nullable = false)
+    private Double valorProduto;
+    
+    @Column(nullable = false)
+    private int qtdProduto;
+    
+    
     public void setProduto(Produto produto) {
         this.produto = produto;
     }
@@ -31,12 +42,6 @@ public class VendasProduto {
         return produto;
     }
     
-    @Column(nullable = false)
-    private Double valorProduto;
-    
-    @Column(nullable = false)
-    private int qtdProduto;
-
     public Vendas getVendas() {
         return vendas;
     }
