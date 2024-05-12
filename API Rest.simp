@@ -1,0 +1,781 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="14.20" multi-file="no" uid="simp89f7bf1455fc43db86034265e58fbb3f" creation-date="03/20/2024 17:27:30">
+  <meta>
+    <name>API Rest</name>
+    <authors>Professor SESI/SENAI</authors>
+    <description>API Rest completa RestFull</description>
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>5</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>29</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>6</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlUseCaseDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>29</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-ca4c386ff75740139f4e26ae179f2367" name="" task-id-sequence="0">
+    <working-schedule uid="ws-10ff50ff6888490d83a4da0a4db3db43" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name>Professor</first-name>
+        <last-name>SESI/SENAI</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-bc78028525f349be976f700b5dd94df2" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+      <person id="">
+        <first-name>Professor</first-name>
+        <last-name>SESI/SENAI</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-d74c85a5f37f4a4182f51ec7806e286a" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+      <person id="">
+        <first-name>Professor</first-name>
+        <last-name>SESI/SENAI</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-64ead67485234ea986246406d0e5fa88" name="" order-index="-1" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="JavaTypes.xml" />
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types>
+        <type id="Class:84bfd22278e0428892d5011788b547cf" name="VendasProduto" class-ref="84bfd22278e0428892d5011788b547cf" />
+        <type id="Long" name="Long" />
+        <type id="Double" name="Double" />
+        <type id="Class:3587baf2f6d546aab39ff43f17987388" name="Vendas" class-ref="3587baf2f6d546aab39ff43f17987388" />
+        <type id="Class:41b706303c1b404db1df176d297de448" name="Produto" class-ref="41b706303c1b404db1df176d297de448" />
+        <type id="Class:c6929dca58dd4033ac2397e021f3537c" name="Cliente" class-ref="c6929dca58dd4033ac2397e021f3537c" />
+      </types>
+    </custom-types>
+  </types>
+  <items>
+    <item id="8b11170901fc495d9037698fdd03d2cf" cid="PROP027" type="property" owner="f6cc5b0d9cc34a789e21aa1813c1c4b6" creator="" creation-date="03/21/2024 17:35:18" visibility="public">
+      <structural-feature multiplicity="1" type="Produto" type-id="Class:41b706303c1b404db1df176d297de448" />
+    </item>
+    <item id="d6617532981a43a1a05c8e3933ab03e1" cid="PROP016" type="property" name="ValorProduto" owner="84bfd22278e0428892d5011788b547cf" creator="" creation-date="03/21/2024 17:02:46" visibility="private">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="Double" type-id="Double" />
+    </item>
+    <item id="e93ec313511c49a8aa1ce6bdec63ee8b" cid="PROP015" type="property" name="ID_Produto" owner="84bfd22278e0428892d5011788b547cf" creator="" creation-date="03/21/2024 17:02:31" visibility="private">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="Long" type-id="Long" />
+    </item>
+    <item id="c6416a2ed9d94c919aaec429c975cb4d" cid="PROP006" type="property" name="nomePrd" owner="41b706303c1b404db1df176d297de448" creator="" creation-date="03/21/2024 15:00:50" visibility="private">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="String" type-id="Java.String" />
+    </item>
+    <item id="5da0cf9d89454301be5d34e42ddd0185" cid="PROP007" type="property" name="descricaoPrd" owner="41b706303c1b404db1df176d297de448" creator="" creation-date="03/21/2024 15:02:35" visibility="private">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="Produto" type-id="Class:41b706303c1b404db1df176d297de448" />
+    </item>
+    <item id="56f4b1649aa3423ebf589547256fd188" cid="PROP017" type="property" name="QtdProduto" owner="84bfd22278e0428892d5011788b547cf" creator="" creation-date="03/21/2024 17:03:01" visibility="private">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="int" type-id="Java.int" />
+    </item>
+    <item id="cf21c64412f749b19062ffac9b91fecd" cid="PROP001" type="property" name="ID_Cliente" owner="c6929dca58dd4033ac2397e021f3537c" creator="" creation-date="03/21/2024 14:48:22" visibility="private">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="Long" type-id="Long" />
+    </item>
+    <item id="ecc7928472f948e9bbb87555f718fee5" cid="PROP022" type="property" owner="28b0c7add44c4c27a6294b4e9094345d" creator="" creation-date="03/21/2024 17:22:17" visibility="public">
+      <structural-feature multiplicity="*" type="Vendas" type-id="Class:3587baf2f6d546aab39ff43f17987388" />
+    </item>
+    <item id="681e3ee1aa7a4ab99db4ac5ece694abb" cid="PROP021" type="property" owner="28b0c7add44c4c27a6294b4e9094345d" creator="" creation-date="03/21/2024 17:22:17" visibility="public">
+      <structural-feature multiplicity="1" type="Cliente" type-id="Class:c6929dca58dd4033ac2397e021f3537c" />
+    </item>
+    <item id="00e2e6c409d9457c81ca69cc8487f79d" cid="PROP013" type="property" name="ID_VendasProduto" owner="84bfd22278e0428892d5011788b547cf" creator="" creation-date="03/21/2024 17:02:07" visibility="private">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="Long" type-id="Long" />
+    </item>
+    <item id="9184b88ec280409ab63a9797f7868b0f" cid="PROP005" type="property" name="ID_Produto" owner="41b706303c1b404db1df176d297de448" creator="" creation-date="03/21/2024 14:58:30" visibility="private">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="Long" type-id="Long" />
+    </item>
+    <item id="19e5eecd0f6141af8576899b447bf02a" cid="PROP023" type="property" owner="507cdd0b6b2247fcbdedc6a36dbb0394" creator="" creation-date="03/21/2024 17:30:43" visibility="public">
+      <structural-feature multiplicity="1" type="Vendas" type-id="Class:3587baf2f6d546aab39ff43f17987388" />
+    </item>
+    <item id="86710d233c954b45bd7b49a9c0c0190b" cid="PROP012" type="property" name="ID_Cliente" owner="3587baf2f6d546aab39ff43f17987388" creator="" creation-date="03/21/2024 16:55:58" visibility="private">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="Long" type-id="Long" />
+    </item>
+    <item id="40ebc1dc0f0b438e9015a875972395e6" cid="PROP014" type="property" name="ID_Vendas" owner="84bfd22278e0428892d5011788b547cf" creator="" creation-date="03/21/2024 17:02:17" visibility="private">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="Long" type-id="Long" />
+    </item>
+    <item id="93d3507389174367861aa3bd6e3dd31c" cid="PROP028" type="property" owner="f6cc5b0d9cc34a789e21aa1813c1c4b6" creator="" creation-date="03/21/2024 17:35:18" visibility="public">
+      <structural-feature multiplicity="1" type="VendasProduto" type-id="Class:84bfd22278e0428892d5011788b547cf" />
+    </item>
+    <item id="69c1c099733a4caca557077470405c41" cid="PROP020" type="property" name="status" owner="3587baf2f6d546aab39ff43f17987388" creator="" creation-date="03/21/2024 17:17:07" visibility="private">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="int" type-id="Java.int" />
+    </item>
+    <item id="36cab607f01b4af1a8ba18553453aa94" cid="PROP011" type="property" name="ID_Vendas" owner="3587baf2f6d546aab39ff43f17987388" creator="" creation-date="03/21/2024 16:55:47" visibility="private">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="Long" type-id="Long" />
+    </item>
+    <item id="8a7c9f96eeb2467fa82f928567919e80" cid="PROP002" type="property" name="nome" owner="c6929dca58dd4033ac2397e021f3537c" creator="" creation-date="03/21/2024 14:49:41" visibility="private">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="String" type-id="Java.String" />
+    </item>
+    <item id="cbf610a7c8e6488eb9df46ddab3a09e2" cid="PROP024" type="property" owner="507cdd0b6b2247fcbdedc6a36dbb0394" creator="" creation-date="03/21/2024 17:30:43" visibility="public">
+      <structural-feature multiplicity="*" type="VendasProduto" type-id="Class:84bfd22278e0428892d5011788b547cf" />
+    </item>
+    <item id="5155c5b7a6f045b0ae72f430e51fdf56" cid="PROP004" type="property" name="email" owner="c6929dca58dd4033ac2397e021f3537c" creator="" creation-date="03/21/2024 14:50:47" visibility="private">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="String" type-id="Java.String" />
+    </item>
+    <item id="b067c27f3dd24608b6e1bca0cb70ea9b" cid="PROP008" type="property" name="valorPrd" owner="41b706303c1b404db1df176d297de448" creator="" creation-date="03/21/2024 15:03:19" visibility="private">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="Double" type-id="Double" />
+    </item>
+    <item id="d1f1f70062f846519d83088fa3a031ad" cid="PROP003" type="property" name="cpf" owner="c6929dca58dd4033ac2397e021f3537c" creator="" creation-date="03/21/2024 14:50:36" visibility="private">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="String" type-id="Java.String" />
+    </item>
+  </items>
+  <models>
+    <model id="pc93c0836b25f4dfa8974374cd8ab4478_500569264" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>03/20/2024 17:29:47</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-usecase" id="p0b23daf698214c1aaf64b40df0580a51_909582311" name="UseCaseDiagram1" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>03/20/2024 17:29:47</creation-date>
+          <change-date>03/20/2024 17:29:47</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer id="f777c76324844d3e98032c10c6c6fce3" name="Default" visible="true" enabled="true" locked="false" />
+      </diagram>
+      <diagram type="uml-class" id="pc73626af543b45b29b08d98a1890cf80_548820235" name="ApiRest Classe" order-index="2" overview-order-index="0" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="501,-48" zoom="1.694">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>03/20/2024 17:29:55</creation-date>
+          <change-date>03/21/2024 17:35:18</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="c6929dca58dd4033ac2397e021f3537c" cid="C001" type="class" name="Cliente" creator="" creation-date="03/20/2024 17:30:01" visibility="public">
+            <owned-items />
+            <attributes>
+              <attribute id="a517a6f5ae9354ba196b402a76a109fdc208" cid="PROP001" name="ID_Cliente" creation-date="03/21/2024 14:48:22" property-ref="cf21c64412f749b19062ffac9b91fecd" />
+              <attribute id="a274a929474854da9935e2557b4980191724" cid="PROP002" name="nome" creation-date="03/21/2024 14:49:41" property-ref="8a7c9f96eeb2467fa82f928567919e80" />
+              <attribute id="abdb8373ca00840ae98d5a12b79686d8f51" cid="PROP003" name="cpf" creation-date="03/21/2024 14:50:36" property-ref="d1f1f70062f846519d83088fa3a031ad" />
+              <attribute id="a9a4b43d340024e958794f2c634a88e49507" cid="PROP004" name="email" creation-date="03/21/2024 14:50:47" property-ref="5155c5b7a6f045b0ae72f430e51fdf56" />
+            </attributes>
+            <operations>
+              <operation id="oc967298b142b4354a50758b2e90c0501358" cid="OP001" name="setNome" creation-date="03/21/2024 14:52:25" type="String" type-id="Java.String" visibility="public">
+                <parameters>
+                  <parameter id="pc0e4094ed1834c4abab6b59d1f24e95a" name="nome" type="" type-id="" creation-date="03/21/2024 14:52:32" />
+                </parameters>
+              </operation>
+              <operation id="od3b9d5d14c1d48ad9cbb3319caf2b17d540" cid="OP002" name="setCpf" creation-date="03/21/2024 14:52:43" type="Long" type-id="Long" visibility="public">
+                <parameters>
+                  <parameter id="pf43df1bef37d4ea5be779d957fbd4a1e" name="cpf" type="" type-id="" creation-date="03/21/2024 14:52:45" />
+                </parameters>
+              </operation>
+              <operation id="ob860910ae32042ff957289be8ad750bc164" cid="OP003" name="setEmail" creation-date="03/21/2024 14:52:56" type="String" type-id="Java.String" visibility="public">
+                <parameters>
+                  <parameter id="p550d9b54b4ab44528dc960573a3eee64" name="email" type="" type-id="" creation-date="03/21/2024 14:52:58" />
+                </parameters>
+              </operation>
+              <operation id="o3e8eb8873a5f44fa8e16ed631be409b0316" cid="OP004" name="getNome" creation-date="03/21/2024 14:53:07" type="String" type-id="Java.String" visibility="public" />
+              <operation id="ob1dd042ff2de4f359b7e88c320682f77780" cid="OP005" name="getCpf" creation-date="03/21/2024 14:53:49" type="Long" type-id="Long" visibility="public" />
+              <operation id="o83e580e9100445ae8b0b95101368f5de748" cid="OP006" name="getEmail" creation-date="03/21/2024 14:54:05" type="String" type-id="Java.String" visibility="public" />
+              <operation id="o011cb7e156ae48e29c29decdc353c957332" cid="OP007" name="getIdCliente" creation-date="03/21/2024 14:56:39" type="Long" type-id="Long" visibility="public" />
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="3587baf2f6d546aab39ff43f17987388" cid="C003" type="class" name="Vendas" creator="" creation-date="03/21/2024 14:47:00" visibility="public">
+            <owned-items />
+            <attributes>
+              <attribute id="a1be189de464242fc806f8176ea4f24b0973" cid="PROP011" name="ID_Vendas" creation-date="03/21/2024 16:55:47" property-ref="36cab607f01b4af1a8ba18553453aa94" />
+              <attribute id="a43ceb30f30e940dba501a51cc88065e1286" cid="PROP012" name="ID_Cliente" creation-date="03/21/2024 16:55:58" property-ref="86710d233c954b45bd7b49a9c0c0190b" />
+              <attribute id="a1fdf6e7797214f7dbc1828dfedf4ec2d650" cid="PROP020" name="status" creation-date="03/21/2024 17:17:07" property-ref="69c1c099733a4caca557077470405c41" />
+            </attributes>
+            <operations>
+              <operation id="o157fcf8682ea4de9b461a627706f31e0340" cid="OP015" name="getID_Vendas" creation-date="03/21/2024 16:58:05" type="Long" type-id="Long" visibility="public" />
+              <operation id="od99077191751490aa8a1cc99559bfea9677" cid="OP016" name="getID_Cliente" creation-date="03/21/2024 16:58:21" type="Long" type-id="Long" visibility="public" />
+              <operation id="o68a96ae9495943d397e32b4fdf39f92d30" cid="OP017" name="setID_Cliente" creation-date="03/21/2024 16:58:49" type="Long" type-id="Long" visibility="public">
+                <parameters>
+                  <parameter id="p25f793c3c11f496fbb48757b587346f6" name="idCliente" type="" type-id="" creation-date="03/21/2024 16:58:56" />
+                </parameters>
+              </operation>
+              <operation id="oc26f9fb7f9c14618bdb657f6cd1747c2631" cid="OP027" name="setStatus" creation-date="03/21/2024 17:18:24" type="int" type-id="Java.int" visibility="public">
+                <parameters>
+                  <parameter id="pad7ef0fcaf324168b861ed0a51c8a35d" name="status" type="" type-id="" creation-date="03/21/2024 17:18:41" />
+                </parameters>
+              </operation>
+              <operation id="of4a5f12746f34493bde27edd640ed2af421" cid="OP028" name="getStatus" creation-date="03/21/2024 17:18:57" type="int" type-id="Java.int" visibility="public" />
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="f6cc5b0d9cc34a789e21aa1813c1c4b6" cid="REL005" type="relationship" creator="" creation-date="03/21/2024 17:35:18" from="41b706303c1b404db1df176d297de448" to="84bfd22278e0428892d5011788b547cf" visibility="package">
+            <owned-items />
+            <relation from="41b706303c1b404db1df176d297de448" to="84bfd22278e0428892d5011788b547cf" derived="false">
+              <start-role id="umlar-626868ff-031d-42a0-9413-040b6cc26cdc" name="" navigability="" association-type="association" visibility="public" property-ref="8b11170901fc495d9037698fdd03d2cf" />
+              <end-role id="umlar-9e761024-7ee8-4783-84b1-904fe147e09c" name="" navigability="" association-type="association" visibility="public" property-ref="93d3507389174367861aa3bd6e3dd31c" />
+            </relation>
+          </item>
+          <item id="41b706303c1b404db1df176d297de448" cid="C002" type="class" name="Produto" creator="" creation-date="03/21/2024 14:46:50" visibility="public">
+            <owned-items />
+            <attributes>
+              <attribute id="a00c6840656c74042a75e34c9daeef376743" cid="PROP005" name="ID_Produto" creation-date="03/21/2024 14:58:30" property-ref="9184b88ec280409ab63a9797f7868b0f" />
+              <attribute id="a998111f480744248bcc4447795fc89a7757" cid="PROP006" name="nomePrd" creation-date="03/21/2024 15:00:50" property-ref="c6416a2ed9d94c919aaec429c975cb4d" />
+              <attribute id="a99d805b244ae4188bd6fe85f55ae8c30172" cid="PROP007" name="descricaoPrd" creation-date="03/21/2024 15:02:35" property-ref="5da0cf9d89454301be5d34e42ddd0185" />
+              <attribute id="a8763822e08d74b4aa4acc70d71aea12a897" cid="PROP008" name="valorPrd" creation-date="03/21/2024 15:03:19" property-ref="b067c27f3dd24608b6e1bca0cb70ea9b" />
+            </attributes>
+            <operations>
+              <operation id="of617e0fbbad94db496f38d454df90043115" cid="OP008" name="getID_produto" creation-date="03/21/2024 15:06:41" type="Long" type-id="Long" visibility="public" />
+              <operation id="o2141bcc8dcd048b6ad4d582e4df7a406998" cid="OP009" name="getNomePrd" creation-date="03/21/2024 15:07:11" type="String" type-id="Java.String" visibility="public" />
+              <operation id="oc4e5047d6eb04b03948b86b4db752cb9651" cid="OP010" name="getDescricaoPrd" creation-date="03/21/2024 15:07:31" type="String" type-id="Java.String" visibility="public" />
+              <operation id="oca357a64003b4829a9d394013482c052107" cid="OP011" name="getValorPrd" creation-date="03/21/2024 15:07:53" type="Double" type-id="Double" visibility="public" />
+              <operation id="ob61a8534050d43eab86e8a748aa44428985" cid="OP012" name="setNomePrd" creation-date="03/21/2024 15:10:08" type="String" type-id="Java.String" visibility="public">
+                <parameters>
+                  <parameter id="p02a5a63dd357473db84573418d7ee90e" name="nome" type="" type-id="" creation-date="03/21/2024 15:10:13" />
+                </parameters>
+              </operation>
+              <operation id="o67c33ca6c9e94e35954cbf794445a14152" cid="OP013" name="setDescricaoPrd" creation-date="03/21/2024 15:10:28" type="String" type-id="Java.String" visibility="public">
+                <parameters>
+                  <parameter id="p88d74c5307fb4ac59a408c40bcf8d4dc" name="desc" type="" type-id="" creation-date="03/21/2024 15:10:31" />
+                </parameters>
+              </operation>
+              <operation id="of901ecd0db9a4dd2a96bdadc303b49bd204" cid="OP014" name="setValorPrd" creation-date="03/21/2024 15:10:45" type="Double" type-id="Double" visibility="public">
+                <parameters>
+                  <parameter id="p3a230edc9fcc4c6ebead4d2b1260b594" name="valor" type="" type-id="" creation-date="03/21/2024 15:10:46" />
+                </parameters>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="28b0c7add44c4c27a6294b4e9094345d" cid="REL002" type="relationship" creator="" creation-date="03/21/2024 17:22:17" from="c6929dca58dd4033ac2397e021f3537c" to="3587baf2f6d546aab39ff43f17987388" visibility="package">
+            <owned-items />
+            <relation from="c6929dca58dd4033ac2397e021f3537c" to="3587baf2f6d546aab39ff43f17987388" derived="false">
+              <start-role id="umlar-602438f0-e3f6-41e8-820f-85fe91991bee" name="" navigability="" association-type="association" visibility="private" attribute-ref="abdb8373ca00840ae98d5a12b79686d8f51" property-ref="681e3ee1aa7a4ab99db4ac5ece694abb" />
+              <end-role id="umlar-dfb2cac6-07ab-4bd0-a9a4-f940ee2583e7" name="" navigability="" association-type="association" visibility="private" property-ref="ecc7928472f948e9bbb87555f718fee5" />
+            </relation>
+          </item>
+          <item id="84bfd22278e0428892d5011788b547cf" cid="C004" type="class" name="VendasProduto" creator="" creation-date="03/21/2024 17:01:22" visibility="public">
+            <owned-items />
+            <attributes>
+              <attribute id="ac28e761529734b06968d8a8ebed7a84c151" cid="PROP013" name="ID_VendasProduto" creation-date="03/21/2024 17:02:07" property-ref="00e2e6c409d9457c81ca69cc8487f79d" />
+              <attribute id="a2d30150329334cb99cfebe429b6b51eb821" cid="PROP014" name="ID_Vendas" creation-date="03/21/2024 17:02:17" property-ref="40ebc1dc0f0b438e9015a875972395e6" />
+              <attribute id="ac8c9eaa0f3d64c31be46f4897d347e35420" cid="PROP015" name="ID_Produto" creation-date="03/21/2024 17:02:31" property-ref="e93ec313511c49a8aa1ce6bdec63ee8b" />
+              <attribute id="a310beb18d29442da878c33268b44903e709" cid="PROP016" name="ValorProduto" creation-date="03/21/2024 17:02:46" property-ref="d6617532981a43a1a05c8e3933ab03e1" />
+              <attribute id="a2c0afb8882ec4362b0f31e8073a833ca181" cid="PROP017" name="QtdProduto" creation-date="03/21/2024 17:03:01" property-ref="56f4b1649aa3423ebf589547256fd188" />
+            </attributes>
+            <operations>
+              <operation id="odb36094f33f344b4a4e0ff5fbbca6e73826" cid="OP018" name="getID_VendasProduto" creation-date="03/21/2024 17:03:45" type="Long" type-id="Long" visibility="public" />
+              <operation id="o93c07539a18d433ba64615745547d680101" cid="OP019" name="getID_Vendas" creation-date="03/21/2024 17:04:03" type="Long" type-id="Long" visibility="public" />
+              <operation id="ofe69bf373eeb4b4fb0c08f968454725d269" cid="OP020" name="getID_Produto" creation-date="03/21/2024 17:04:48" type="Long" type-id="Long" visibility="public" />
+              <operation id="o96c9eaad79664d37b54cfa451833a0d7765" cid="OP021" name="getValorProduto" creation-date="03/21/2024 17:05:08" type="Double" type-id="Double" visibility="public" />
+              <operation id="o6061005418064449ae2d3867ca21ddbe773" cid="OP022" name="getQtdProduto" creation-date="03/21/2024 17:06:19" type="int" type-id="Java.int" visibility="public" />
+              <operation id="o3d071319ded349f0b1f654f69ca5ba9d605" cid="OP023" name="setID_Vendas" creation-date="03/21/2024 17:06:32" type="Long" type-id="Long" visibility="public">
+                <parameters>
+                  <parameter id="pad7eaba2f9424845851e3d4ef484a159" name="idVendas" type="" type-id="" creation-date="03/21/2024 17:06:40" />
+                </parameters>
+              </operation>
+              <operation id="oc81bdcf1467e421e86f7accbf1c6cb08725" cid="OP024" name="setID_Produto" creation-date="03/21/2024 17:06:55" type="Long" type-id="Long" visibility="public">
+                <parameters>
+                  <parameter id="pd221611a62d34c30b3fad1538e4fd477" name="idProduto" type="" type-id="" creation-date="03/21/2024 17:06:58" />
+                </parameters>
+              </operation>
+              <operation id="ob843735d06354e4880cc5e8f83793a63941" cid="OP025" name="setValorProduto" creation-date="03/21/2024 17:07:12" type="Double" type-id="Double" visibility="public">
+                <parameters>
+                  <parameter id="pd56af3fa324842608aa3f370e34f55bf" name="valorProduto" type="" type-id="" creation-date="03/21/2024 17:07:16" />
+                </parameters>
+              </operation>
+              <operation id="o80dcb967ab164d0283f808afe8939123701" cid="OP026" name="setQtdProduto" creation-date="03/21/2024 17:07:28" type="int" type-id="Java.int" visibility="public">
+                <parameters>
+                  <parameter id="p3f0fe56c0ef04f618806bccee3b32801" name="qtdProduto" type="" type-id="" creation-date="03/21/2024 17:07:57" />
+                </parameters>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="507cdd0b6b2247fcbdedc6a36dbb0394" cid="REL003" type="relationship" creator="" creation-date="03/21/2024 17:30:43" from="3587baf2f6d546aab39ff43f17987388" to="84bfd22278e0428892d5011788b547cf" visibility="package">
+            <owned-items />
+            <relation from="3587baf2f6d546aab39ff43f17987388" to="84bfd22278e0428892d5011788b547cf" derived="false">
+              <start-role id="umlar-7ba9bef0-8d0e-409f-b090-1a972dfcff6e" name="" navigability="" association-type="association" visibility="public" attribute-ref="a43ceb30f30e940dba501a51cc88065e1286" property-ref="19e5eecd0f6141af8576899b447bf02a" />
+              <end-role id="umlar-521b630a-4542-4bcd-8649-cf4064bd1dbd" name="" navigability="" association-type="association" visibility="public" property-ref="cbf610a7c8e6488eb9df46ddab3a09e2" />
+            </relation>
+          </item>
+        </abstract-items>
+        <layer id="3fda6c1f9d86446dabf578312f406e5c" name="Default" visible="true" enabled="true" locked="false">
+          <item id="c6929dca58dd4033ac2397e021f3537c" iid="4bd8f0a74d234d69a9b5885c63d7af4c" show-fields="true" creation-date="03/20/2024 17:30:01" order-index="0" type="entity">
+            <layout ax="321" ay="25" awidth="194" aheight="302" x="321" y="25" width="194" height="302" />
+            <classifier />
+            <class />
+          </item>
+          <item id="41b706303c1b404db1df176d297de448" iid="25bf77e56c4b4552bf69e3607478fb93" show-fields="true" creation-date="03/21/2024 14:46:50" order-index="1" type="entity">
+            <layout ax="1083" ay="25" awidth="225" aheight="302" x="1083" y="25" width="204" height="302" />
+            <classifier />
+            <class />
+          </item>
+          <item id="3587baf2f6d546aab39ff43f17987388" iid="633375c63a1d4f07b77d0d0259891a01" show-fields="true" creation-date="03/21/2024 14:47:00" order-index="2" type="entity">
+            <layout ax="588" ay="25" awidth="210" aheight="284" x="588" y="25" width="210" height="284" />
+            <classifier />
+            <class />
+          </item>
+          <item id="84bfd22278e0428892d5011788b547cf" iid="9dbabe7b9f914920bab2f324e3a43d8c" show-fields="true" creation-date="03/21/2024 17:01:22" order-index="3" type="entity">
+            <layout ax="812" ay="204" awidth="257" aheight="302" x="812" y="204" width="140" height="302" />
+            <classifier />
+            <class />
+          </item>
+          <item id="28b0c7add44c4c27a6294b4e9094345d" iid="e8ce2b13827f4507887d09785cf0697d" creation-date="03/21/2024 17:22:17" order-index="4" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="true" auto-path="" x1="515" y1="103" x2="588" y2="129" start-border-pos="0.31498344370860926" end-border-pos="0.9088908450704225" start-local-pos="78" end-local-pos="104" name-position="0,20">
+              <points>
+                <point x="515" y="103" />
+                <point x="588" y="129" />
+              </points>
+            </layout>
+            <relation from="c6929dca58dd4033ac2397e021f3537c" from-iid="4bd8f0a74d234d69a9b5885c63d7af4c" from-field="abdb8373ca00840ae98d5a12b79686d8f51" to="3587baf2f6d546aab39ff43f17987388" to-iid="633375c63a1d4f07b77d0d0259891a01" to-field="o157fcf8682ea4de9b461a627706f31e0340" />
+          </item>
+          <item id="507cdd0b6b2247fcbdedc6a36dbb0394" iid="4817efb17aae4553ba4c7db2797a3849" creation-date="03/21/2024 17:30:43" order-index="5" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="true" auto-path="" x1="798" y1="84" x2="936" y2="204" start-border-pos="0.30237676056338025" end-border-pos="0.12062256809338522" start-local-pos="59" end-local-pos="124" name-position="0,20">
+              <points>
+                <point x="798" y="84" />
+                <point x="936" y="204" />
+              </points>
+            </layout>
+            <relation from="3587baf2f6d546aab39ff43f17987388" from-iid="633375c63a1d4f07b77d0d0259891a01" from-field="a43ceb30f30e940dba501a51cc88065e1286" to="84bfd22278e0428892d5011788b547cf" to-iid="9dbabe7b9f914920bab2f324e3a43d8c" />
+          </item>
+          <item id="f6cc5b0d9cc34a789e21aa1813c1c4b6" iid="55d0ca4fda224c7888e650b8ebf81734" creation-date="03/21/2024 17:35:18" order-index="6" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1083" y1="87" x2="994" y2="204" start-border-pos="0.9486754966887417" end-border-pos="0.17704280155642024" start-local-pos="62" end-local-pos="182" name-position="0,20">
+              <points>
+                <point x="1083" y="87" />
+                <point x="994" y="204" />
+              </points>
+            </layout>
+            <relation from="41b706303c1b404db1df176d297de448" from-iid="25bf77e56c4b4552bf69e3607478fb93" to="84bfd22278e0428892d5011788b547cf" to-iid="9dbabe7b9f914920bab2f324e3a43d8c" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
